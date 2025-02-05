@@ -1,0 +1,148 @@
+.footer {
+  height: auto;
+  padding: 40px 20px;
+  background-color: rgba(172, 171, 171, 0.295);
+  border-radius: 20px 20px 0 0;
+  text-align: center;
+}
+
+.footer h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.footer-sub {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-sub p {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #000;
+}
+
+.footer-sub ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+}
+
+.footer-sub li {
+  font-size: 0.9rem;
+  color: rgb(151, 152, 152);
+  font-weight: 400;
+  line-height: 1.8rem;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.footer-sub li:hover {
+  color: #000;
+}
+
+.logo-one {
+  background-color: transparent;
+  padding: 20px;
+  width: 120px;
+  margin: auto;
+}
+
+.logo-one div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo-one a {
+  font-size: 1.8rem;
+  color: black;
+  text-decoration: none;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.logo-one a:hover {
+  color: #555;
+  transform: scale(1.2);
+}
+
+.copy {
+  height: auto;
+  padding: 10px 0;
+  background-color: rgba(172, 171, 171, 0.295);
+}
+
+.copy-sub {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 30px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.copy-sub h5 {
+  font-size: 0.9rem;
+  color: black;
+  margin: 0;
+}
+
+.copy-sub .para {
+  display: flex;
+  gap: 30px;
+  font-size: 0.8rem;
+  color: #555;
+}
+
+.copy-sub .para p {
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.copy-sub .para p:hover {
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .footer h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .footer-sub {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-sub p {
+    font-size: 1rem;
+  }
+
+  .footer-sub ul {
+    padding: 0;
+  }
+
+  .logo-one {
+    width: 100px;
+  }
+
+  .copy-sub {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    margin: 0;
+  }
+
+  .copy-sub .para {
+    flex-direction: column;
+    gap: 5px;
+  }
+}
