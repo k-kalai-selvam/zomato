@@ -1,4 +1,3 @@
-/* General Styles */
 .cart-container {
   font-family: 'Poppins', sans-serif;
   max-width: 800px;
@@ -15,7 +14,6 @@ h2 {
   padding-bottom: 5px;
 }
 
-/* Product List */
 .product-list {
   display: flex;
   flex-wrap: wrap;
@@ -54,7 +52,6 @@ button:hover {
   background: #b71c1c;
 }
 
-/* Cart Section */
 .cart-item {
   display: flex;
   align-items: center;
@@ -73,7 +70,7 @@ button:hover {
   margin: 5px 0;
 }
 
-/* Order Button */
+
 .order-section {
   text-align: center;
   margin-top: 20px;

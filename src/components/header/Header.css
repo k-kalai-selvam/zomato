@@ -1,163 +1,176 @@
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-
 .navbar {
-    height: 93vh;
-    background: linear-gradient(244deg, #000000dc -3.09%, #fd5151);
-    padding: 20px;
-    border-radius: 0 0 20px 20px;
+  height: 93vh;
+  background: linear-gradient(244deg, #000000dc -3.09%, #fd5151);
+  padding: 20px;
+  border-radius: 0 0 20px 20px;
 }
 
 .logo {
-    border: 3px solid white;
-    border-radius: 60px;
-    padding: 40px 70px;
-    background-color: rgb(255, 255, 255);
-    height: 70%;
-    width: 70%;
-    margin: 60px auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 1px;
+  border: 3px solid white;
+  border-radius: 60px;
+  padding: 40px 70px;
+  background-color: rgb(255, 255, 255);
+  height: 70%;
+  width: 70%;
+  margin: 60px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1px;
 }
-
 
 .logo h1 {
-    font-size: 1.8rem;
-    font-weight: bold;
+  font-size: 1.8rem;
+  font-weight: bold;
 }
 
-
 .logo ul {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    margin-left: 160px;
-    gap: 60px;
-    padding: 10px;
-    font-family: "Nunito", serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 0.8rem;
-    text-decoration: none;
-    color: black;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: black;
+  background-color: rgb(196, 77, 77);
+  margin: 0;
+  width: 70px;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .logo ul li a {
-    text-decoration: none;
-    color: black;
-    font-size: 1rem;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
 }
 
 .head {
-    flex-basis: calc(50% - 20px);
-    max-width: 100%;
-    margin: 50px 0 10px;
+  flex-basis: calc(50% - 20px);
+  max-width: 100%;
+  margin: 50px 0 10px;
 }
 
 head h1 {
-    font-size: 1.7rem;
-    width: 400px;
-    margin: 0;
+  font-size: 1.7rem;
+  width: 400px;
+  margin: 0;
 }
 
 .head h2 {
-    font-size: 1.7rem;
-    width: 400px;
-    margin: 0;
+  font-size: 1.7rem;
+  width: 400px;
+  margin: 0;
 }
 
 .head p {
-    margin-top: 30px;
-    width: 330px;
+  margin-top: 30px;
+  width: 330px;
 }
 
 .head button {
-    height: 40px;
-    border-radius: 40px;
-    border: none;
-    background-color: rgb(90, 225, 90);
-    padding: 10px;
-    width: 150px;
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    margin-top: 20px;
+  height: 40px;
+  border-radius: 40px;
+  border: none;
+  background-color: rgb(90, 225, 90);
+  padding: 10px;
+  width: 150px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 20px;
 }
 
 .im {
-    display: flex;
-    flex-direction: row;
-    margin-left: 380px;
-    margin-top: -210px;
-    width: 450px;
-    height: 450px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 380px;
+  margin-top: -240px;
+  width: 450px;
+  height: 450px;
 }
 
 @media (max-width: 768px) {
-    .navbar {
-        height: auto;
-        padding: 20px;
-    }
+  .navbar {
+    height: auto;
+    padding: 20px;
+  }
 
-    .logo {
-        width: 90%;
-        padding: 20px;
-        border-radius: 40px;
-        flex-direction: column;
-        text-align: center;
-    }
+  .logo {
+    width: 90%;
+    padding: 20px;
+    border-radius: 40px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
 
-    .logo h1 {
-        font-size: 1.5rem;
-    }
+  .logo h1 {
+    font-size: 1.6rem;
+  }
 
-    .logo ul {
-        flex-direction: column;
-        align-items: center;
-        margin: 0;
-        gap: 10px;
-        padding: 0;
-    }
+  .logo ul {
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    justify-content: center;
+    padding: 0 auto;
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
 
-    .logo ul li {
-        font-size: 1rem;
-    }
+  }
 
-    .head {
-        text-align: center;
-    }
+  .logo ul li {
+    font-size: 1rem;
+    text-align: center;
+    padding: auto;
+  
+  }
 
-    .head h1,
-    .head h2 {
-        font-size: 1.5rem;
-        width: auto;
-    }
+  .head {
+    text-align: center;
+    margin-top: 20px;
+  }
 
-    .head p {
-        width: auto;
-        font-size: 1rem;
-        margin-top: 15px;
-    }
+  .head h1,
+  .head h2 {
+    font-size: 1.5rem;
+    width: auto;
+  }
 
-    .head button {
-        width: 140px;
-        padding: 8px;
-        font-size: 0.9rem;
-    }
+  .head p {
+    width: auto;
+    font-size: 1rem;
+    margin-top: 15px;
+  }
 
-    .im {
-        margin: 0 auto;
-        width: 100%;
-        height: auto;
-        max-width: 300px;
-        display: flex;
-        justify-content: center;
-    }
+  .head button {
+    width: 140px;
+    padding: 8px;
+    font-size: 0.9rem;
+  }
+
+  .im {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    margin-left: -10px;
+    margin-top: 20px;
+  }
 }

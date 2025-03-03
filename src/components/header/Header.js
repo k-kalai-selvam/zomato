@@ -1,25 +1,21 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import './Header.css';
-import plate from '../../assets/plate.png';
+import React from "react";
+import { Link } from "react-router-dom";
+import "./Header.css";
+import plate from "../../assets/plate.png";
 
 export const Header = () => {
   return (
     <>
-    <div className='navbar'>
-    <div className='logo'>
-        <h1>zomato</h1>
-    <ul>
-        <li>
-            <Link to={"/"}>Menu</Link>
-        </li>
-        <li>
-            <Link to={"/Cart"}>View Cart</Link>
-        </li>
-    </ul>
+      <div className="navbar">
+        <div className="logo">
+          <h1>Zomato</h1>
+          <ul>
+            <li>
+              <Link to={"/"}>Menu</Link>
+            </li>
+          </ul>
 
-
-    <div className="head">
+          <div className="head">
             <h1>Fastest Delivery &</h1>
             <h2>Easy Pickup.</h2>
             <p>
@@ -29,13 +25,8 @@ export const Header = () => {
             <button>Make an Order</button>
             <img className="im" src={plate} alt="Food" />
           </div>
-
-    </div>
-
-
-</div>
-
-
-        </>
-  )
-}
+        </div>
+      </div>
+    </>
+  );
+};
